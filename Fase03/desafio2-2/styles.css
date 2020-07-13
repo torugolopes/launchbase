@@ -1,0 +1,25 @@
+:root {
+  --color-red: rgb(116, 13, 0);
+  --color-blue: rgb(11, 32, 221);
+}
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+/*desafio feito pela rocketseat*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#wrapper img {
+  border-radius: 50%;
+  border: 5px solid var(--color-blue);
+}
+
+#wrapper .links a:hover {
+  color: var(--color-red);
+  transition: color 300ms;
+}
+
+#wrapper .links a {
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+}
